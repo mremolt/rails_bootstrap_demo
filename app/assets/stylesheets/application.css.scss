@@ -16,12 +16,12 @@
 @import "bootstrap-responsive";
 
 #content {
-  padding: 20px;
+  margin-top: 20px;
 }
 
 form {
   input, textarea, select {
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -29,4 +29,5 @@ aside.span4 {
   border: 1px solid $textColor;
   @include border-radius($borderRadiusLarge);
   padding: 20px;
+  margin-top: 40px;
 }
